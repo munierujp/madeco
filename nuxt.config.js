@@ -1,4 +1,5 @@
 const pkg = require('./package')
+const Stylelint = require('stylelint-webpack-plugin')
 
 module.exports = {
   mode: 'spa',
@@ -51,9 +52,12 @@ module.exports = {
     /*
     ** You can extend webpack config here
     */
-    extend(config, ctx) {
+    extend (config, ctx) {
       // Run ESLint on save
       if (ctx.isDev && ctx.isClient) {
+        config.plugins.push(new Stylelint({
+          files: '**/*.{css,scss,vue}'
+        }))
         config.module.rules.push({
           enforce: 'pre',
           test: /\.(js|vue)$/,
