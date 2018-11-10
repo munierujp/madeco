@@ -29,6 +29,7 @@
     "eslint-plugin-vue": "^4.0.0",
     "node-sass": "^4.10.0",
     "nodemon": "^1.11.0",
+    "nuxt-i18n": "^5.4.4",
     "sass-loader": "^7.1.0",
     "stylelint": "^9.7.1",
     "stylelint-config-standard": "^18.2.0",
