@@ -43,6 +43,18 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
+    ['nuxt-i18n', {
+      locales: [
+        {
+          code: 'ja',
+          iso: 'ja',
+          file: 'ja.js'
+        }
+      ],
+      defaultLocale: 'ja',
+      lazy: true,
+      langDir: 'lang/'
+    }]
   ],
 
   /*
