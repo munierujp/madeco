@@ -1,3 +1,4 @@
 export default {
-  DOWNLOAD: 'ダウンロード'
+  APP_NAME: 'madeco',
+  DOWNLOAD: 'ダウンロード for PowerPoint'
 }
