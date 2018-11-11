@@ -3,7 +3,8 @@
     :color="color"
     :href="href"
     :to="to"
-    dark>
+    dark
+    class="madeco-download-button">
     <v-icon
       left
       dark>cloud_download</v-icon>
@@ -29,3 +30,9 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+.madeco-download-button {
+  text-transform: none;
+}
+</style>
