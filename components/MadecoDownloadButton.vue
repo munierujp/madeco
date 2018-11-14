@@ -8,7 +8,7 @@
     <v-icon
       left
       dark>cloud_download</v-icon>
-    {{ $t('DOWNLOAD') }}
+    {{ label }}
   </v-btn>
 </template>
 
@@ -16,6 +16,10 @@
 export default {
   props: {
     color: {
+      type: String,
+      required: true
+    },
+    label: {
       type: String,
       required: true
     },
