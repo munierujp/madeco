@@ -1,6 +1,6 @@
 # madeco
 
-> Material Design Color Slide Template
+> Material Design Color slide template
 
 ## Build Setup
 
